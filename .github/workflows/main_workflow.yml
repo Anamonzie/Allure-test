@@ -25,7 +25,7 @@ jobs:
       run: dotnet build --configuration Release
       
     - name: Ensure browsers are installed
-      run: pwsh bin/Release/net8.0/playwright.ps1 install --with-deps
+      run: pwsh AllureNewTest.Tests/bin/Release/net8.0/playwright.ps1 install --with-deps
       
     - name: Run Playwright tests
       run: |
