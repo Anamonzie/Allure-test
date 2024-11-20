@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allure new Test", "Allure new Test\Allure new Test.csproj", "{08081CD7-13CF-4AA5-9417-2EC874E3E1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllureNewTest.Tests", "AllureNewTest.Tests\AllureNewTest.Tests.csproj", "{E252333B-E320-49C6-9E91-7EBB2CAED5DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08081CD7-13CF-4AA5-9417-2EC874E3E1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08081CD7-13CF-4AA5-9417-2EC874E3E1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08081CD7-13CF-4AA5-9417-2EC874E3E1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08081CD7-13CF-4AA5-9417-2EC874E3E1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E252333B-E320-49C6-9E91-7EBB2CAED5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E252333B-E320-49C6-9E91-7EBB2CAED5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E252333B-E320-49C6-9E91-7EBB2CAED5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E252333B-E320-49C6-9E91-7EBB2CAED5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
