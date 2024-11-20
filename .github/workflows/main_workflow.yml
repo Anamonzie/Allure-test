@@ -16,10 +16,7 @@ jobs:
     - name: Setup .NET    
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
-        
-    - name: Restore NuGet packages
-      run: dotnet restore   
+        dotnet-version: 8.0.x      
       
     - name: Build Solution   
       run: dotnet build --configuration Release
@@ -40,7 +37,7 @@ jobs:
         path: gh-pages
 
     - name: Generate Allure Report
-      uses: simple-elf/allure-report-action@master
+      uses: simple-elf/allure-report-action@v1.11 
       if: always()
       with:
         allure_results: allure-results
